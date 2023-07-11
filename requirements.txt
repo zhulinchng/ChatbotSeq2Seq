@@ -11,3 +11,5 @@ tqdm
 nltk
 seaborn
 scikit-learn
+gensim
+dill
