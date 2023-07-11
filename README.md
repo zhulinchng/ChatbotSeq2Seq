@@ -2,7 +2,7 @@
 
 > CSCK507 NLP Group Project to implement a seq-2-seq model with and without attention mechanism for developing a generative chatbot.
 
-[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/loft-sh/devpod)
+[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/zhulinchng/ChatbotSeq2Seq)
 
 [![Open in Colab!](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhulinchng/ChatbotSeq2Seq/blob/main/main.ipynb)
 
