@@ -1,20 +1,25 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/miniconda",
   "hostRequirements": {
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "",
+  "postCreateCommand": "export PATH='/home/vscode/.local/bin':$PATH",
   "customizations": {
     "codespaces": {
       "openFiles": []
     },
     "vscode": {
       "extensions": [
-        "ms-toolsai.jupyter",
-        "ms-python.python"
-      ]
+		"ms-toolsai.jupyter",
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"DavidAnson.vscode-markdownlint",
+		"ms-toolsai.jupyter-renderers",
+		"ms-python.isort",
+		"VisualStudioExptTeam.vscodeintellicode"
+	]
     }
   }
 }
