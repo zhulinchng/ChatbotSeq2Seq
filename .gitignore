@@ -8,6 +8,7 @@ models/
 runs/
 vocab/
 *.zip
+output/
 
 # C extensions
 *.so
